@@ -222,3 +222,9 @@ deleteTweetBtn.addEventListener('click', _ => {
     })
     .catch(err => console.log(err))
 })
+
+function test_print(){
+
+  console.log("test code")
+
+}
