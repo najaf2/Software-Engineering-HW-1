@@ -16,4 +16,4 @@ placeholder "Enter ID". Then press the "Create Tweet" button
 4. To delete a tweet, enter the id of the tweet in the textbox and
 press the "Delete Tweet" button, alternativly scroll down and press DELETE on the tweet
 5. To update a user name, enter the current screen name nad also a new screen name. Then press on the "Update Name" button
-6. To get a tweet type in the ID in the textbox and press the "Get Tweet" button
+6. To get a tweet type in the ID in the textbox and press the "Get Tweet" button.
