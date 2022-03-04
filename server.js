@@ -3,7 +3,7 @@
 const express = require('express')
 const app = express()
 const port = 3000
-const cors = require('cors')
+// const cors = require('cors')
 const favs = require('./favs.json');
 let bodyParser = require('body-parser');
 
@@ -11,9 +11,9 @@ let bodyParser = require('body-parser');
 app.use(bodyParser.json())
 
 // All use cors to deal with security
-app.use(cors({
-  origin: '*'
-}));
+// app.use(cors({
+//   origin: '*'
+// }));
 
 // When frontend request tweets, send them the favs json
 app.get('/tweets', function (req, res) {
